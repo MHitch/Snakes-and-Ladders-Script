@@ -1,0 +1,32 @@
+.snakes-ladders-board {
+    position: relative;
+    width: 600px;
+    height: 600px;
+    background: url('board.png') no-repeat center;
+    background-size: contain;
+    border: 2px solid #000;
+    margin: 0 auto;
+}
+
+.player-marker {
+    position: absolute;
+    text-align: center;
+}
+
+.player-marker img {
+    width: 20px;
+    height: 20px;
+}
+
+.player-marker .name {
+    margin-top: 5px;
+    font-size: 12px;
+    color: #000;
+}
+
+.player-marker .line {
+    height: 20px;
+    width: 1px;
+    background-color: #000;
+    margin: 0 auto;
+}
